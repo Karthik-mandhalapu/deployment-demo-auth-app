@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "build": [
+    {
+      "src": "server.js",
+      "use": "@versal/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "server.js"
+    }
+  ]
+}
